@@ -1,8 +1,6 @@
-function sum(n,) {    
-    return  ("%i", &n);
+let acumulador = 0
+let numeroUsuario = 3;
+for (let i = 1; i <= numeroUsuario; i++) {
+    acumulador += i
 }
-
-
-console.log(sum(4)) // 1 + 2 + 3 + 4 = 10
-console.log(sum(10)) // 55
-console.log(sum(15)) // 120
+console.log('Total: ' + acumulador)
